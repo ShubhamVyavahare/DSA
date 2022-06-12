@@ -9,44 +9,6 @@ package binarytree;
  * Post-order traversal of Binary Tree : D E B F C A
  * In-order traversal of Binary Tree : D B E A F C
  */
-
-class Node {
-    char key;
-    Node left, right;
-
-    public Node(char key) {
-        this.key = key;
-    }
-}
-
-class TreeTraversal {
-    Node root;
-
-    void preOrderTraversal(Node n) {
-        if (n != null) {
-            System.out.print(n.key + " ");
-            preOrderTraversal(n.left);
-            preOrderTraversal(n.right);
-        }
-    }
-
-    void postOrderTraversal(Node n) {
-        if (n != null) {
-            postOrderTraversal(n.left);
-            postOrderTraversal(n.right);
-            System.out.print(n.key + " ");
-        }
-    }
-
-    void inOrderTraversal(Node n) {
-        if (n != null) {
-            inOrderTraversal(n.left);
-            System.out.print(n.key + " ");
-            inOrderTraversal(n.right);
-        }
-    }
-}
-
 public class BinaryTreeSolution {
 
     public static void main(String[] args) {
