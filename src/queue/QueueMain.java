@@ -15,23 +15,23 @@ package queue;
  * Deleting elements from the queue using dequeue() method
  * Displaying Queue Elements : 4 8
  */
-public class QueueSolution {
+public class QueueMain {
     public static void main(String[] args) {
 
-        QueueUsingArrays queueUsingArrays = new QueueUsingArrays(5);
+        QueueUsingArraysSolution queueUsingArraysSolution = new QueueUsingArraysSolution(5);
 
         System.out.println("Initially queue is empty");
-        queueUsingArrays.display();
-        queueUsingArrays.dequeue();
+        queueUsingArraysSolution.display();
+        queueUsingArraysSolution.dequeue();
 
         System.out.println("\nInserting elements into the queue using enqueue() method");
-        queueUsingArrays.enqueue(2);
-        queueUsingArrays.enqueue(4);
-        queueUsingArrays.enqueue(8);
-        queueUsingArrays.display();
+        queueUsingArraysSolution.enqueue(2);
+        queueUsingArraysSolution.enqueue(4);
+        queueUsingArraysSolution.enqueue(8);
+        queueUsingArraysSolution.display();
 
         System.out.println("\n\nDeleting elements from the queue using dequeue() method");
-        queueUsingArrays.dequeue();
-        queueUsingArrays.display();
+        queueUsingArraysSolution.dequeue();
+        queueUsingArraysSolution.display();
     }
 }

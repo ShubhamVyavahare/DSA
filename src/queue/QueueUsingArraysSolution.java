@@ -1,12 +1,12 @@
 package queue;
 
-public class QueueUsingArrays {
+public class QueueUsingArraysSolution {
 
     int frontQueue, rearQueue;
     int capacityOfQueue;
     static int[] q1;
 
-    public QueueUsingArrays(int capacityOfQueue) {
+    public QueueUsingArraysSolution(int capacityOfQueue) {
         this.capacityOfQueue = capacityOfQueue;
         q1 = new int[this.capacityOfQueue];
     }
