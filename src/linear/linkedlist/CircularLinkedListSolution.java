@@ -1,4 +1,4 @@
-package linkedlist;
+package linear.linkedlist;
 
 public class CircularLinkedListSolution {
     Node head, tail;

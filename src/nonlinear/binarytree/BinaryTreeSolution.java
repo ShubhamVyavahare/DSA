@@ -1,27 +1,7 @@
-package binarysearchtree;
+package nonlinear.binarytree;
 
-public class BinarySearchTreeSolution {
+public class BinaryTreeSolution {
     Node root;
-
-    void insertKey(char key) {
-        root = insertIntoTree(root, key);
-    }
-
-    Node insertIntoTree(Node root, char key) {
-
-        if (root == null) {
-            root = new Node(key);
-            return root;
-        }
-
-        if (key < root.key) {
-            root.left = insertIntoTree(root.left, key);
-        } else if (key > root.key) {
-            root.right = insertIntoTree(root.right, key);
-        }
-
-        return root;
-    }
 
     void preOrderTraversal(Node n) {
         if (n != null) {
@@ -46,5 +26,4 @@ public class BinarySearchTreeSolution {
             inOrderTraversal(n.right);
         }
     }
-
 }

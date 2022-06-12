@@ -1,4 +1,4 @@
-package binarysearchtree;
+package nonlinear.binarysearchtree;
 
 /**
  * Create a binary search tree using classes and objects

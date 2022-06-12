@@ -1,4 +1,4 @@
-package queue;
+package linear.queue;
 
 public class QueueUsingArraysSolution {
 

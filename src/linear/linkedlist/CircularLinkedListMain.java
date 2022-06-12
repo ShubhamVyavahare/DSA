@@ -1,4 +1,4 @@
-package linkedlist;
+package linear.linkedlist;
 
 /**
  * Implement Circular Linked List (Do not use java built in classes)

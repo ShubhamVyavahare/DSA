@@ -1,7 +1,7 @@
-package array;
+package linear.array;
 
 /**
- * Create a 1-D array and insert a number starting from 1 tp the max num until the end of the array.
+ * Create a 1-D linear.array and insert a number starting from 1 tp the max num until the end of the linear.array.
  * Access the numbers after inserting them and then display them as an output
  * <p>
  * Output :

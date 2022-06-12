@@ -1,10 +1,10 @@
-package stack;
+package linear.stack;
 
 import java.util.Stack;
 
 /**
- * Create a stack and implement it using the inbuilt classes and methods
- * Access the elements of stack using iterator method
+ * Create a linear.stack and implement it using the inbuilt classes and methods
+ * Access the elements of linear.stack using iterator method
  * Implement the methods - push, pop, empty/isEmpty, peek, search, size, sort
  * <p>
  * Output :
@@ -16,7 +16,7 @@ import java.util.Stack;
  * Using size() method --> stackSize : 5
  * Stack before sorting : [2, 4, 9, 5, 1]
  * Stack after sorting : [1, 2, 4, 5, 9]
- * Using forEach() method over the stack
+ * Using forEach() method over the linear.stack
  * 1
  * 2
  * 4
@@ -57,7 +57,7 @@ public class StackSolutionMain {
         s1.sort(Integer::compareTo);
         System.out.println("Stack after sorting : " + s1);
 
-        System.out.println("Using forEach() method over the stack");
+        System.out.println("Using forEach() method over the linear.stack");
         s1.forEach(System.out::println);
 
     }

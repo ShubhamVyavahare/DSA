@@ -1,4 +1,4 @@
-package binarytree;
+package nonlinear.binarytree;
 
 /**
  * Create a binary tree using classes and objects in java

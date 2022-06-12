@@ -1,10 +1,10 @@
-package array;
+package linear.array;
 
 /**
- * Search element in 1D array
+ * Search element in 1D linear.array
  * <p>
  * Output :
- * Given array
+ * Given linear.array
  * 3 2 4 6 1 5
  * Given Key to search : 2
  * Element is found at index 1
@@ -24,7 +24,7 @@ public class ArraysSearch {
 
     public static int search(int arr[], int key) {
 
-        System.out.println("Given array");
+        System.out.println("Given linear.array");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
