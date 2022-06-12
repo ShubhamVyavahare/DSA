@@ -23,7 +23,7 @@ import java.util.Stack;
  * 5
  * 9
  */
-public class StackSolution {
+public class StackSolutionMain {
     public static void main(String[] args) {
 
         Stack<Integer> s1 = new Stack<>();
