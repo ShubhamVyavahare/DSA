@@ -19,7 +19,7 @@ import java.util.LinkedList;
  * Linked list size : 6
  * Is 4 contains in Linked List : true
  */
-public class LinkedListSolution {
+public class LinkedListSolutionMain {
     public static void main(String[] args) {
 
         LinkedList<Integer> l1 = new LinkedList<>();
